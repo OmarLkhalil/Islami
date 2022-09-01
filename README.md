@@ -1,6 +1,6 @@
 # IslamiProject
 
-Islami is a first project at Route it has ( quran - hadeth - tasbeh - radio ).
+Islami is a first project at Route it has ( quran - hadeth - tasbeh - radio ) .
 
 ## Clone
 
@@ -16,13 +16,15 @@ https://github.com/OmarLkhalil/RouteIslamiProject/archive/refs/heads/master.zip
  - It's a simple islamic application with simple 5 screens and navigation
  - Used (Fragments - Navigation - XML - Kotlin - resources - assets - splash)
  - Screen shots:
- 
+ ![alt text](https://github.com/OmarLkhalil/RouteIslamiProject/blob/master/Images/Screenshot%20(7).png)
 
 ## 6 steps to make this simple project: 
   - **First step**:
- 
+  
      start with importing our drawable files  
-     1 - Splash Screen - 2 - background 3- icons 
+     1 - Splash Screen - 2 - background 3- icons 4 - Colors and themes. 
+     ***we have dark and light them don't forget***
+     
   - **Second step**: 
     
 1-  make our splash screen Activity and start with 

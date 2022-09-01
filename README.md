@@ -46,14 +46,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
    2- make the kotlin code in splashescreen Activity file:
     
 ```kotlin
-package com.omar.fnavigation.Activities
-
-import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
-
 
 class splash : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -131,16 +123,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 2- home.kt
 ```kotlin
 
-
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import androidx.fragment.app.Fragment
-import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.google.android.material.navigation.NavigationBarView
-import com.omar.fnavigation.R
-import com.omar.fnavigation.Activities.Home
-import com.omar.fnavigation.UI.quran.QuranFragment
-import com.omar.fnavigation.UI.tasbeh.TasbehFragment
 
 lateinit var bottomNavigation : BottomNavigationView
 

@@ -26,7 +26,7 @@ https://github.com/OmarLkhalil/RouteIslamiProject/archive/refs/heads/master.zip
      ***we have dark and light them don't forget***
      
   - **Second step**: 
-    ![alt text](http://url/to/img.png](https://github.com/OmarLkhalil/RouteIslamiProject/blob/master/Images/splash%403x.png)
+    ![alt text](https://github.com/OmarLkhalil/RouteIslamiProject/blob/master/Images/splash%403x.png)
     
 1-  make our splash screen Activity and start with 
      layout and set background to the splashscreen res 

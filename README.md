@@ -28,7 +28,6 @@ https://github.com/OmarLkhalil/RouteIslamiProject/archive/refs/heads/master.zip
   - **Second step**: 
   
     <img src="https://github.com/OmarLkhalil/RouteIslamiProject/blob/master/Images/splash%403x.png" width="324" height="500">
-
 1-  make our splash screen Activity and start with 
      layout and set background to the splashscreen res 
 ```xml
@@ -184,7 +183,7 @@ class Home : AppCompatActivity() {
  
  - Is to make our QuranFragment
  - 
-![alt text](http://url/to/img.png](https://github.com/OmarLkhalil/RouteIslamiProject/blob/master/Images/quran%403x.png)
+<img src="https://github.com/OmarLkhalil/RouteIslamiProject/blob/master/Images/quran%403x.png" width="324" height="500">
 
 1 - start with layout 
 ```xml

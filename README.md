@@ -366,4 +366,9 @@ class QuranFragment : Fragment()  {
 }
 ```
 ## My Social Accounts
-<a href=”https://www.linkedin.com/in/omarlkhalil/"><img align=”left” src=”https://github.com/OmarLkhalil/RouteIslamiProject/blob/master/linkedin.png" alt=”icon | LinkedIn” width=”21px”/></a>
+
+<p align="left">
+<a href="https://twitter.com/omartommm" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="omartommm" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/omarlkhalil" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="omarlkhalil" height="30" width="40" /></a>
+<a href="https://discord.gg/LarryYu#2987" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="LarryYu#2987" height="30" width="40" /></a>
+</p>

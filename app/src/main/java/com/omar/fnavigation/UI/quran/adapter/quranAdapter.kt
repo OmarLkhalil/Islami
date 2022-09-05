@@ -19,11 +19,24 @@ class quranAdapter (private val mList: List<String>) :
 
     }
 
+    var onItemClickListner : OnItemClickListener? =null
+
+    interface  OnItemClickListener{
+        fun onItemClick(position: Int, suraName: String)
+    }
     override fun getItemCount(): Int = mList.size
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val suraName = mList.get(position)
         holder.textView.setText(suraName)
+
+        onItemClickListner?.let{
+            clickListener ->
+            holder.itemView.setOnClickListener{
+                clickListener.onItemClick(position, suraName)
+            }
+
+        }
     }
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

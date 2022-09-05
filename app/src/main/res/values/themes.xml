@@ -13,10 +13,28 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
         <item name="android:navigationBarColor">@color/gold</item>
+        <item name="homeAsUpIndicator">@drawable/back_arrow</item>
     </style>
 
     <style name="NoActionBar" parent="Theme.Fnavigation">
         <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
     </style>
+
+    <style name="NavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemTextAppearanceActive">@style/ActiveText</item>
+        <item name="itemTextAppearanceInactive">@style/InactiveText</item>
+    </style>
+
+    <style name="ActiveText">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="InactiveText">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Theme.Fnavigation.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Fnavigation.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

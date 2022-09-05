@@ -3,15 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android with Kotlin/Fnavigation/app/src/main/res/drawable-anydpi/ic_action_name.xml" value="0.1" />
         <entry key="..\:/Android with Kotlin/Fnavigation/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/Android with Kotlin/Fnavigation/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Android with Kotlin/Fnavigation/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android with Kotlin/Fnavigation/app/src/main/res/layout/activity_sura_details.xml" value="0.2" />
+        <entry key="..\:/Android with Kotlin/Fnavigation/app/src/main/res/layout/app_bar_layout.xml" value="0.176" />
+        <entry key="..\:/Android with Kotlin/Fnavigation/app/src/main/res/layout/content_sura_details.xml" value="0.1" />
         <entry key="..\:/Android with Kotlin/Fnavigation/app/src/main/res/layout/fragment_hadeth.xml" value="0.25052083333333336" />
         <entry key="..\:/Android with Kotlin/Fnavigation/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
         <entry key="..\:/Android with Kotlin/Fnavigation/app/src/main/res/layout/fragment_quran.xml" value="0.136" />
         <entry key="..\:/Android with Kotlin/Fnavigation/app/src/main/res/layout/fragment_radio.xml" value="0.24947916666666667" />
         <entry key="..\:/Android with Kotlin/Fnavigation/app/src/main/res/layout/fragment_settings.xml" value="0.1621376811594203" />
         <entry key="..\:/Android with Kotlin/Fnavigation/app/src/main/res/layout/fragment_tasbeh.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android with Kotlin/Fnavigation/app/src/main/res/layout/item_verse.xml" value="0.152" />
         <entry key="..\:/Android with Kotlin/Fnavigation/app/src/main/res/layout/sura_item.xml" value="0.25052083333333336" />
         <entry key="..\:/Android with Kotlin/Fnavigation/app/src/main/res/layout/sura_number.xml" value="0.1" />
         <entry key="..\:/Android with Kotlin/Fnavigation/app/src/main/res/menu/home_navigation.xml" value="0.25416666666666665" />

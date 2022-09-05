@@ -4,17 +4,18 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
-<TextView
+
+    <TextView
         android:id="@+id/header_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    android:paddingTop="10dp"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
         tools:text="البقرة"
         android:textColor="@color/black"
         android:textSize="30sp"
         android:textStyle="bold"
-       >
-</TextView>
+        >
+    </TextView>
 
 </FrameLayout>

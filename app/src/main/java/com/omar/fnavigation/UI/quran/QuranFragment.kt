@@ -1,11 +1,15 @@
 package com.omar.fnavigation.UI.quran
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
+import com.omar.fnavigation.Activities.SuraDetails
+import com.omar.fnavigation.Constants
 import com.omar.fnavigation.R
 import com.omar.fnavigation.UI.quran.adapter.quranAdapter
 
@@ -40,8 +44,27 @@ class QuranFragment : Fragment()  {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        recyclerView = view.findViewById(R.id.sura_rec)
+        initRecyclerView()
+
+    }
+
+    fun initRecyclerView(){
+        recyclerView = requireView().findViewById(R.id.sura_rec)
         adapter = quranAdapter(chaptersName)
+        adapter.onItemClickListner = object: quranAdapter.OnItemClickListener
+        {
+            override fun onItemClick(position: Int, suraName: String) {
+                showSureDetailes(position,suraName)
+            }
+        }
         recyclerView.adapter = adapter
+    }
+
+    fun showSureDetailes(pos: Int, sureName: String){
+        val intent = Intent(this.context,SuraDetails::class.java)
+        intent.putExtra(Constants.EXTRA_SURA_NAME,sureName)
+        intent.putExtra(Constants.EXTRA_SURA_POSITION, pos)
+        startActivity(intent)
+
     }
 }

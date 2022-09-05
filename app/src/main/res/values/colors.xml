@@ -7,4 +7,5 @@
     <color name="navy">#141A2E</color>
     <color name="darkNavy">#05070D</color>
     <color name="yellow">#FACC1D</color>
+    <color name="transparent">#00000000</color>
 </resources>

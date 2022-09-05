@@ -14,20 +14,20 @@
         android:theme="@style/Theme.Fnavigation"
         tools:targetApi="31">
         <activity
+            android:name=".Activities.SuraDetails"
+            android:exported="false" />
+        <activity
             android:name=".Activities.Home"
             android:exported="false" />
-
         <activity
             android:name=".Activities.splash"
-            android:exported="true"
-            >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

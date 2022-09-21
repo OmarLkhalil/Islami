@@ -18,7 +18,7 @@ https://github.com/OmarLkhalil/RouteIslamiProject/archive/refs/heads/master.zip
  - Screen shots:
  ![alt text](https://github.com/OmarLkhalil/RouteIslamiProject/blob/master/Images/Screenshot%20(7).png)
 
-## 6 steps to make this simple project: 
+## steps to make this simple project: 
   - **First step**:
   
      start with importing our drawable files  

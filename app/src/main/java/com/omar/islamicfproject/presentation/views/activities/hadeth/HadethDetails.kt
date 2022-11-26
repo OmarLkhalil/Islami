@@ -1,4 +1,4 @@
-package com.omar.islamicfproject.ui.hadeth
+package com.omar.islamicfproject.presentation.views.activities.hadeth
 
 import android.os.Bundle
 import android.widget.TextView
@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.omar.islamicfproject.Constants
 import com.omar.islamicfproject.R
-import com.omar.islamicfproject.ui.quran.Adapter.DetailsAdapter
+import com.omar.islamicfproject.domain.adapters.quran.DetailsAdapter
 
 
 class hadethDetails : AppCompatActivity() {

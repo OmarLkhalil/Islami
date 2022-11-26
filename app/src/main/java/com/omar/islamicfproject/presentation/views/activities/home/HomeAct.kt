@@ -1,4 +1,4 @@
-package com.omar.islamicfproject.ui.home
+package com.omar.islamicfproject.presentation.views.activities.home
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

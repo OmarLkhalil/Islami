@@ -1,4 +1,4 @@
-package com.omar.islamicfproject.ui.radio
+package com.omar.islamicfproject.presentation.views.fragments.radio
 
 import android.os.Bundle
 import android.view.LayoutInflater

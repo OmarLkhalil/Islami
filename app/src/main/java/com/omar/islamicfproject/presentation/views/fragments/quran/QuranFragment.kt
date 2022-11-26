@@ -1,4 +1,4 @@
-package com.omar.islamicfproject.ui.quran
+package com.omar.islamicfproject.presentation.views.fragments.quran
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,8 +9,8 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import com.omar.islamicfproject.Constants
 import com.omar.islamicfproject.R
-import com.omar.islamicfproject.databinding.FragmentQuranBinding
-import com.omar.islamicfproject.ui.quran.Adapter.QuranAdapter
+import com.omar.islamicfproject.presentation.views.activities.quran.quranDetails
+import com.omar.islamicfproject.domain.adapters.quran.QuranAdapter
 
 class quranFragment :Fragment() {
 
@@ -150,7 +150,7 @@ class quranFragment :Fragment() {
 
     fun initRecyclerView() {
         recyclerView = requireView().findViewById(R.id.recycler_view)
-        adapter = QuranAdapter(chaptersNames)
+        adapter      = QuranAdapter(chaptersNames)
         adapter.onItemCLickListener = object : QuranAdapter.OnItemClickListener {
             override fun onItemClick(pos:Int, name:String) {
                 showSuraDetails(pos,name)
@@ -161,7 +161,7 @@ class quranFragment :Fragment() {
 
 
     fun showSuraDetails(pos:Int,name:String) {
-        val intent = Intent(requireActivity(),quranDetails::class.java)
+        val intent = Intent(requireActivity(), quranDetails::class.java)
         intent.putExtra(Constants.EXTRA_NAME, name)
         intent.putExtra(Constants.EXTRA_POST, pos)
         startActivity(intent);

@@ -1,4 +1,4 @@
-package com.omar.islamicfproject.ui.hadeth
+package com.omar.islamicfproject.presentation.views.fragments.hadeth
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,8 +9,8 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import com.omar.islamicfproject.Constants
 import com.omar.islamicfproject.R
-import com.omar.islamicfproject.databinding.FragmentHadethBinding
-import com.omar.islamicfproject.ui.hadeth.Adapters.HadethAdapter
+import com.omar.islamicfproject.domain.adapters.hadeth.HadethAdapter
+import com.omar.islamicfproject.presentation.views.activities.hadeth.hadethDetails
 
 class hadethFragment: Fragment() {
 
@@ -76,7 +76,7 @@ class hadethFragment: Fragment() {
 
 
     fun showHadethDetails(pos:Int,name:String) {
-        val intent = Intent(requireActivity(),hadethDetails::class.java)
+        val intent = Intent(requireActivity(), hadethDetails::class.java)
         intent.putExtra(Constants.EXTRA_NAME, name)
         intent.putExtra(Constants.EXTRA_POST, pos)
         startActivity(intent);

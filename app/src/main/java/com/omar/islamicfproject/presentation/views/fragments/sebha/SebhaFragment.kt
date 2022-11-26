@@ -1,21 +1,35 @@
-package com.omar.islamicfproject.ui.sebha
+package com.omar.islamicfproject.presentation.views.fragments.sebha
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import com.omar.islamicfproject.R
 import com.omar.islamicfproject.databinding.FragmentSebhaBinding
 
 class sebhaFragment :Fragment() {
+
+    private lateinit var binding:FragmentSebhaBinding
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        return inflater.inflate(R.layout.fragment_sebha, container, false);
+    ): View{
+
+        binding =
+            DataBindingUtil.inflate(inflater,
+            R.layout.fragment_sebha,
+            container, false)
+        setHasOptionsMenu(true)
+
+
+
+        binding.lifecycleOwner = viewLifecycleOwner
+        return binding.root
     }
 
     lateinit var counter : Button
@@ -66,7 +80,6 @@ class sebhaFragment :Fragment() {
 
 
         }
-
 
     }
 }

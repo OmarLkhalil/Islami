@@ -8,21 +8,21 @@
 
     <fragment
         android:id="@+id/hadethFragment"
-        android:name="com.omar.islamicfproject.ui.hadeth.hadethFragment"
+        android:name="com.omar.islamicfproject.presentation.views.fragments.hadeth.hadethFragment"
         android:label="hadethFragment" />
 
     <fragment
         android:id="@+id/quranFragment"
-        android:name="com.omar.islamicfproject.ui.quran.quranFragment"
+        android:name="com.omar.islamicfproject.presentation.views.fragments.quran.quranFragment"
         android:label="quranFragment" />
 
     <fragment
         android:id="@+id/radioFragment"
-        android:name="com.omar.islamicfproject.ui.radio.radioFragment"
+        android:name="com.omar.islamicfproject.presentation.views.fragments.radio.radioFragment"
         android:label="radioFragment" />
     <fragment
 
         android:id="@+id/sebhaFragment"
-        android:name="com.omar.islamicfproject.ui.sebha.sebhaFragment"
+        android:name="com.omar.islamicfproject.presentation.views.fragments.sebha.sebhaFragment"
         android:label="sebhaFragment" />
 </navigation>

@@ -14,7 +14,7 @@
         android:theme="@style/Theme.IslamicFProject"
         tools:targetApi="31">
         <activity
-            android:name=".ui.home.HomeAct"
+            android:name=".presentation.views.activities.home.HomeAct"
             android:exported="true"
             android:label="@string/app_name">
             <intent-filter>
@@ -28,10 +28,10 @@
                 android:value="" />
         </activity>
 
-        <activity android:name=".ui.quran.quranDetails"
+        <activity android:name=".presentation.views.activities.quran.quranDetails"
             >
         </activity>
-        <activity android:name=".ui.hadeth.hadethDetails"
+        <activity android:name=".presentation.views.activities.hadeth.hadethDetails"
             >
         </activity>
     </application>

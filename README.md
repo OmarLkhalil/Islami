@@ -8,7 +8,7 @@ You can use the link from green button called code.
 or you can just download it from here:
 
 ```bash
-https://github.com/OmarLkhalil/RouteIslamiProject/archive/refs/heads/master.zip
+https://github.com/OmarLkhalil/RouteIslamiProject/archive/refs/heads/development.zip
 ```
 
 ## Project Description
